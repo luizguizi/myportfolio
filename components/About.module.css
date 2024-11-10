@@ -1,0 +1,98 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 0;
+    width: 990px;
+    text-align: justify;
+}
+.content{
+   
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0 auto;
+    align-items: center;
+    
+
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+.sides{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0 auto;
+ 
+}
+.logoside01{
+    background-image: url(../src/assets/Logo/form\ png\ 1.png);
+    width: 60px;
+    height: 46px;
+    margin-bottom: 20px;
+}
+.logoside02{
+    background-image: url(../src/assets/Logo/icon\ curso\ 1.png);
+    width: 51px;
+    height: 54px;
+    margin-bottom: 10px;
+}
+.logoside01, .logoside02{
+    
+    background-repeat: none;
+    background-size: cover;
+
+}
+.aside1, .aside2{
+    margin-top: 40px;
+    width: 400px;
+    height: 477px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: flex-start;
+    text-align: justify;
+    padding: 40px;
+    margin-bottom: 40px;
+
+
+}
+.aside1{
+    border-right: 2px solid #515151;
+}
+.fotmationside, h2 {
+    color: #000;
+    font-size: 24px;
+    margin-bottom: -10px;
+}
+.fotmationside, p{
+    font-size: 16px;
+    margin-bottom: -10px;
+    color: #515151;
+}
+.formationside {
+    margin-bottom: 35px;
+}
+.button {
+    width: 160px;
+    height: 50px;
+    background: linear-gradient(#33ff91, #23f8c5, #33dde6);
+    color: #000;    
+    font-size: 20px;
+    font-weight: bolder;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: transform 0.3s ease; 
+
+}
+.button:hover{
+    background: #23f8c5;
+    font-size: 22px;
+    
+}

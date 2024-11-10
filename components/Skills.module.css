@@ -1,0 +1,82 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 0;
+    width: 990px;
+    text-align: justify;
+}
+.content{
+   
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0 auto;
+    align-items: center;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+.sides{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0 auto;
+}
+.aside1, .aside2{
+    margin-top: 40px;
+    width: 400px;
+    height: 477px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: flex-start;
+    text-align: justify;
+    padding: 40px;
+    margin-bottom: 40px;
+
+
+}
+.aside1{
+    border-right: 2px solid #515151;
+}
+.button {
+    width: 160px;
+    height: 50px;
+    background: linear-gradient(#33ff91, #23f8c5, #33dde6);
+    color: #000;    
+    font-size: 20px;
+    font-weight: bolder;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: transform 0.3s ease; 
+
+}
+.button:hover{
+    background: #23f8c5;
+    font-size: 22px;
+    
+}
+.skill_bar {
+    width: 100%;            /* Largura da barra */
+    background-color: #e0e0e0;  /* Cor de fundo da barra */
+    border-radius: 8px;         /* Bordas arredondadas */
+    overflow: hidden;           /* Esconde qualquer conteúdo que ultrapasse as bordas */
+    margin-bottom: 30px;
+  }
+  
+  .skill_level {
+    height: 24px;               /* Altura da barra preenchida */
+    background-color: #4caf50;  /* Cor do nível de preenchimento */
+    width: 75%;                 /* Nível de conhecimento em percentual */
+    color: white;
+    text-align: center;
+    line-height: 24px;          /* Alinha o texto verticalmente no centro */
+    font-weight: bold;
+    border-radius: 8px 0 0 8px; /* Bordas arredondadas à esquerda */
+  }

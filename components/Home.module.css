@@ -29,6 +29,20 @@
 
 }
 .button {
-    width: 130px;
-    height: 30px;
+    width: 160px;
+    height: 50px;
+    background: linear-gradient(#33ff91, #23f8c5, #33dde6);
+    color: #000;    
+    font-size: 20px;
+    font-weight: bolder;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: transform 0.3s ease; 
+
+}
+.button:hover{
+    background: #23f8c5;
+    font-size: 22px;
+    
 }

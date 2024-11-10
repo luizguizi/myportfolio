@@ -1,10 +1,11 @@
 import React from 'react'
 import styles from '../components/Home.module.css'
-
 const Home = () => {
   return (
     <div className={styles.container}>
+    
     <div className={styles.content}>
+
       <div className={styles.info}>
       <div className={styles.info_text}>
       <h2>Olá, eu sou Luiz Guilherme</h2>

@@ -1,0 +1,31 @@
+.social {
+    border: solid 1px black;
+    width: 100px;
+    padding: 40px 0;
+    
+}
+.logo1 {
+    margin-top: 20px;
+    background-image: url(../src/assets/social/linkein\ 2.png);
+    width: 49px;
+    height:46px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -5px;
+}
+.logo2 {
+    margin-top: 20px;
+    background-image: url(../src/assets/social/github\ 2.png);
+    width: 43px;
+    height:43px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo3 {
+    margin-top: 20px;
+    background-image: url(../src/assets/social/image\ 1.png);
+    width: 43px;
+    height:43px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
